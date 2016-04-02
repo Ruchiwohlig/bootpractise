@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
-<title>Online Website</title>
-<meta charset="utf-8">
+  <title>Online Website</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
   <link rel="stylesheet" href="bootstrap.min.css">
@@ -9,55 +9,86 @@
 </head>
 <body>
   <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" title="La Shoopa">La Shoopa</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#fixme">Sign Up:<span class="glyphicon glyphicon-user"></span></a></li>
+        <li><a href="#fixme">Login:<span class="glyphicon glyphicon-log-in"></span></a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <div class="text-center">
+      <a href="#fixme" title="Caprese Bags" target="_blank"><img src="images/banner.jpg" class="img-rounded" alt="bags"></a>
+      <p>Caprese bags on sale</p>
+      <p>Flat 50% off</p>
+    </div>
+  </div>
   <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="index.html" title="La Shoopa">La Shoopa</a>
+    <div class="row">
+      <div class="col-lg-6 col-md-4">
+        <p>Diwali offer on apparel</p>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <a href="#fixme"><img src="images/collection.jpg"></a>
+            </div>
+            <div class="item">
+              <a href="#fixme"><img src="images/lehenga.jpg"></a>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-8">
+        <p>Special items to gift this diwali</p>
+        <a  title="Tote" target="_blank" href="#fixme"><img src="images/bag.jpg" class="img-thumbnail" alt="apparels"></a>
+        <button type="button" class="btn btn-primary">PREVIEW</button>
+        <button type="button" class="btn btn-warning">BUY</button>
+      </div>
+      <ul class="pagination pagination-sm">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+      </ul>
     </div>
-    <ul class="nav navbar-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Gallery</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#fixme">Sign Up:<span class="glyphicon glyphicon-user"></span></a></li>
-      <li><a href="#fixme">Login:<span class="glyphicon glyphicon-log-in"></span></a></li>
-    </ul>
   </div>
-</nav>
-<div class="jumbotron">
-  <div class="text-center">
-    <a href="#fixme" title="Caprese Bags" target="_blank"><img src="images/banner.jpg" class="img-rounded" alt="bags"></a>
-    <p>Caprese bags on sale</p>
-    <p>Flat 50% off</p>
-  </div>
-</div>
-<div class="container">
-<div class="row">
-  <div class="col-lg-6 col-md-8">
-    <p>Diwali offer on apparels</p>
-    <a href="#fixme"><img src="images/summer.jpg"></a>
-  </div>
-  <div class="col-lg-6 col-md-4">
-    <p>Special items to gift this diwali</p>
-    <a  title="Tote" target="_blank" href="#fixme"><img src="images/bag.jpg" class="img-thumbnail" alt="apparels"></a>
-    <div class="btn">
-      <button type="button" class="btn btn-primary">PREVIEW</button>
-      <button type="button" class="btn btn-warning">BUY</button>
+  <div class="container">
+    <div class="footer clearfix">
+      <ul class="list-inline text-center">
+        <li><a href="#fixme"><span class="glyphicon glyphicon-yahoo"></span>Facebook</a></li>
+        <li><a href="#fixme">Twitter</a></li>
+        <li><a href="#fixme">+Google</a></li>
+      </ul>
+      <p class="pull-right">&copy;Copyright of La Shoopa</p>
+      <p class="pull-left">&reg;Registered by La Shoopa</p>
     </div>
   </div>
-</div>
-</div>
-<div class="container">
-<div class="footer">
-  <ul class="list-inline text-center">
-    <li><a href="#fixme"><span class="glyphicon glyphicon-yahoo"></span>Facebook</a></li>
-    <li><a href="#fixme">Twitter</a></li>
-    <li><a href="#fixme">+google</a></li>
-  </ul>
-  <p class="pull-right">&copy;Copyright of website</p>
-  <p class="pull-left">&reg;Registered by website</p>
-</div>
-</div>
 </body>
 </html>
