@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+
 <head>
   <title>Online Website</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
+
 <body>
   <nav class="navbar navbar-inverse">
     <div class="container">
@@ -28,14 +30,14 @@
   <div class="jumbotron">
     <div class="text-center">
       <a href="#fixme" title="Caprese Bags" target="_blank"><img src="images/banner.jpg" class="img-rounded" alt="bags"></a>
-      <p>Caprese bags on sale</p>
-      <p>Flat 50% off</p>
+      <p class="text-center">Caprese bags on sale</p>
+      <p class="text-center">Flat 50% off</p>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-md-4">
-        <p>Diwali offer on apparel</p>
+      <div class="col-md-6">
+        <p class="text-center">Diwali offer on apparel</p>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -64,13 +66,28 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-md-8">
-        <p>Special items to gift this diwali</p>
-        <a  title="Tote" target="_blank" href="#fixme"><img src="images/bag.jpg" class="img-thumbnail" alt="apparels"></a>
-        <button type="button" class="btn btn-primary">PREVIEW</button>
-        <button type="button" class="btn btn-warning">BUY</button>
+      <div class="col-md-6">
+        <p class="text-center">Special items to gift this diwali</p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image-holder">
+              <a title="Tote" target="_blank" href="#fixme"><img src="images/bag.jpg" class="img-thumbnail" alt="apparels"></a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="description">
+              <p class="text-center">Special items to gift this diwali</p>
+            </div>
+            <div class="btn-all text-center">
+              <button type="button" class="btn btn-primary">PREVIEW</button>
+              <button type="button" class="btn btn-warning">BUY</button>
+            </div>
+          </div>
+        </div>
+
+
       </div>
-      <ul class="pagination pagination-sm">
+      <ul class="pagination pagination-sm text-center">
         <li><a href="#">1</a></li>
         <li><a href="#">2</a></li>
         <li><a href="#">3</a></li>
@@ -82,7 +99,7 @@
   <div class="container">
     <div class="footer clearfix">
       <ul class="list-inline text-center">
-        <li><a href="#fixme"><span class="glyphicon glyphicon-yahoo"></span>Facebook</a></li>
+        <li><a class="btn btn-social-icon btn-twitter"><span class="fa fa-twitter"></span>Facebook</a></li>
         <li><a href="#fixme">Twitter</a></li>
         <li><a href="#fixme">+Google</a></li>
       </ul>
@@ -91,4 +108,5 @@
     </div>
   </div>
 </body>
+
 </html>
